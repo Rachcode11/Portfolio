@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #1E90FF;  ;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -121,7 +121,7 @@ section {
   transition: all 0.4s ease-in-out;
 }
 .controls .active-btn i {
-  color: var(--color-white);
+  color: white;
 }
 
 .theme-btn {
@@ -183,7 +183,6 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(100%);
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
@@ -193,12 +192,14 @@ section {
   flex-direction: column;
   justify-content: center;
   padding-right: 18rem;
+  width: 120%;
 }
 .header-content .right-header .name {
   font-size: 3rem;
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
+  width: 100%;
 }
 .header-content .right-header p {
   margin: 1.5rem 0;
